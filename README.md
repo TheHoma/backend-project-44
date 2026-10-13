@@ -24,7 +24,9 @@ cd backend-project-44
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
 
----
+![](docs/brain-even.gif)
+
+[Полная запись на asciinema](https://asciinema.org/a/Yzl4GUT0jIKG3Zko)
 
 <details>
 <summary>Автоматические тесты Хекслета</summary>
