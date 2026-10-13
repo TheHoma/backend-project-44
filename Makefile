@@ -6,3 +6,9 @@ brain-games:
 
 publish:
 	npm publish --dry-run
+
+lint:
+	npx oxlint && npx oxfmt --check
+
+lint-fix:
+	npx oxfmt && npx oxlint --fix
