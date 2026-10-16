@@ -24,9 +24,10 @@ cd backend-project-44
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
 
-![](docs/brain-even.gif)
-
-[Полная запись на asciinema](https://asciinema.org/a/Yzl4GUT0jIKG3Zko)
+| 🎮 Игра | 🎬 Демонстрация |
+|:-----|:------------:|
+| **brain-even** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/Yzl4GUT0jIKG3Zko) |
+| **brain-calc** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/5QJUDAfuMLVl44Ix) |
 
 <details>
 <summary>Автоматические тесты Хекслета</summary>
