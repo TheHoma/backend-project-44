@@ -4,32 +4,44 @@
 
 Погрузитесь в непростую экосистему JavaScript, научитесь настраивать рабочее окружение. Подружитесь с линтером (анализатором качества кода) и менеджером зависимостей npm. Поймёте, чем git отличается от GitHub, поработаете с внешними репозиториями. Получите опыт построения архитектуры полноценного приложения и написания чистого кода.
 
-Учебный проект Хекслета: https://ru.hexlet.io/programs/backend
+Учебный проект Хекслета: https://ru.hexlet.io/programs/backend<br>
 Как это должно работать: https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7
 
 ## Стек
 
 - JavaScript
 
-## Установка
+## Минимальные требования
 
-<!-- Опишите установку: клонирование, зависимости, переменные окружения -->
+- 🟢 **Node.js** 18+
+- 📦 **npm**
+- 🔖 **make**
+
+## Установка
 
 ```bash
 git clone https://github.com/TheHoma/backend-project-44.git
 cd backend-project-44
+make install
+npm link
 ```
+
+- `npm link` — регистрирует исполняемые файлы пакета глобально, после чего игры запускаются по имени как обычные команды.
+
+## Описание проекта
+
+«Игры разума» — набор из пяти консольных игр по мотивам популярных мобильных приложений для тренировки мозга. Каждая игра задаёт вопросы, на которые нужно дать правильные ответы. После трёх правильных ответов игра считается пройденной; неправильный ответ завершает игру и предлагает пройти её заново.
 
 ## Использование
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+| 🎮 Игра | Команда | 🎬 Демонстрация |
+|:---|:---|:---:|
+| Чётное число | `brain-even` | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/Yzl4GUT0jIKG3Zko) |
+| Калькулятор | `brain-calc` | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/5QJUDAfuMLVl44Ix) |
+| НОД | `brain-gcd` | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/K8NH8rsE2lmW30P5) |
+| Прогрессия | `brain-progression` | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/0aIVBiHd62RyyUvo) |
+| Простое число | `brain-prime` | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/cBNNUYNyB5H62iIP) |
 
-| 🎮 Игра | 🎬 Демонстрация |
-|:-----|:------------:|
-| **brain-even** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/Yzl4GUT0jIKG3Zko) |
-| **brain-calc** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/5QJUDAfuMLVl44Ix) |
-| **brain-gcd** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/K8NH8rsE2lmW30P5) |
-| **brain-progression** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/0aIVBiHd62RyyUvo) |
 
 <details>
 <summary>Автоматические тесты Хекслета</summary>
