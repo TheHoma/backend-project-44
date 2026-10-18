@@ -1,11 +1,15 @@
 import { startGame } from "../index.js";
 
+const MIN_PRIME = 2;
+const FIRST_ODD = 3;
+const ODD_STEP = 2;
+
 const isPrime = (num) => {
-  if (num < 2) {
+  if (num < MIN_PRIME) {
     return false;
   }
 
-  if (num === 2) {
+  if (num === MIN_PRIME) {
     return true;
   }
 
@@ -13,7 +17,7 @@ const isPrime = (num) => {
     return false;
   }
 
-  for (let i = 3; i * i <= num; i += 2) {
+  for (let i = FIRST_ODD; i * i <= num; i += ODD_STEP) {
     if (num % i === 0) {
       return false;
     }
