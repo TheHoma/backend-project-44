@@ -29,6 +29,7 @@ cd backend-project-44
 | **brain-even** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/Yzl4GUT0jIKG3Zko) |
 | **brain-calc** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/5QJUDAfuMLVl44Ix) |
 | **brain-gcd** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/K8NH8rsE2lmW30P5) |
+| **brain-progression** | [![asciinema](https://img.shields.io/badge/asciinema-смотреть-blueviolet)](https://asciinema.org/a/0aIVBiHd62RyyUvo) |
 
 <details>
 <summary>Автоматические тесты Хекслета</summary>
